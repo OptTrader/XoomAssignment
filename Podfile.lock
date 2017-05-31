@@ -1,0 +1,21 @@
+PODS:
+  - BRYXBanner (0.7.2)
+  - CDAlertView (0.6.0)
+  - Nimble (6.1.0)
+  - Quick (1.1.0)
+
+DEPENDENCIES:
+  - BRYXBanner
+  - CDAlertView
+  - Nimble
+  - Quick
+
+SPEC CHECKSUMS:
+  BRYXBanner: ed407a56c53f2add0aaa16f810062eac48d802cf
+  CDAlertView: e6f365fa0fac7349197e7ea4bd7810c069215cf4
+  Nimble: c53e6903fee94041b90ded74f135820437d8bf59
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
+
+PODFILE CHECKSUM: d3d6d54e619f0c50d4752a7e3c1c9c5153a56437
+
+COCOAPODS: 1.2.0.beta.1

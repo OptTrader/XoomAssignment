@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046ECDF58F76BE5D3B7A3612 /* Pods_XoomAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5E5E3EDDAEA015A13D1881 /* Pods_XoomAssignmentTests.framework */; };
+		5BCC69024E406A2A4E69121F /* Pods_XoomAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8198A229C044A72446939F32 /* Pods_XoomAssignment.framework */; };
 		7AA4FE731ED961D40011717D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4FE721ED961D40011717D /* AppDelegate.swift */; };
-		7AA4FE751ED961D40011717D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4FE741ED961D40011717D /* ViewController.swift */; };
 		7AA4FE781ED961D40011717D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA4FE761ED961D40011717D /* Main.storyboard */; };
 		7AA4FE7A1ED961D40011717D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA4FE791ED961D40011717D /* Assets.xcassets */; };
 		7AA4FE7D1ED961D40011717D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA4FE7B1ED961D40011717D /* LaunchScreen.storyboard */; };
-		7AA4FE881ED961D40011717D /* XoomAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4FE871ED961D40011717D /* XoomAssignmentTests.swift */; };
+		7AA4FE961ED9656B0011717D /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4FE951ED9656B0011717D /* Country.swift */; };
+		7AA4FE981EDA28970011717D /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4FE971EDA28970011717D /* ErrorHandling.swift */; };
+		7AA4FE9A1EDA290A0011717D /* XoomApiClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4FE991EDA290A0011717D /* XoomApiClientProtocol.swift */; };
+		7AA4FE9D1EDA29D80011717D /* UrlEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4FE9C1EDA29D80011717D /* UrlEndpoints.swift */; };
+		7AA4FE9F1EDA2A630011717D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4FE9E1EDA2A630011717D /* NetworkManager.swift */; };
+		7AA4FEA21EDA3A470011717D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4FEA11EDA3A470011717D /* MainViewController.swift */; };
+		7AA4FEA81EDA99920011717D /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4FEA71EDA99920011717D /* Currency.swift */; };
+		7AA4FEAA1EDA9D250011717D /* UserDefaultsManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4FEA91EDA9D250011717D /* UserDefaultsManagement.swift */; };
+		7AA4FEAC1EDA9FF60011717D /* UIColor+HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4FEAB1EDA9FF60011717D /* UIColor+HexColors.swift */; };
+		7AA4FEAE1EDAA01E0011717D /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4FEAD1EDAA01E0011717D /* Formatters.swift */; };
+		7AA4FEB31EDB893E0011717D /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4FEB21EDB893E0011717D /* Font.swift */; };
+		7AA4FEB51EDB89670011717D /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4FEB41EDB89670011717D /* ColorScheme.swift */; };
+		7AA4FEB91EDBA3F20011717D /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4FEB81EDBA3F20011717D /* CurrencyViewModel.swift */; };
+		7AD40F6C1EDE25F500A767F4 /* String Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD40F6B1EDE25F500A767F4 /* String Extension.swift */; };
+		7AD40F6E1EDE2A3400A767F4 /* NetworkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD40F6D1EDE2A3400A767F4 /* NetworkTest.swift */; };
+		7AD40F741EDE2F2700A767F4 /* CurrencySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD40F731EDE2F2700A767F4 /* CurrencySpec.swift */; };
+		7AD40F781EDE401300A767F4 /* PersistentSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD40F771EDE401300A767F4 /* PersistentSpec.swift */; };
+		7AFF14111EDE81BF000688AA /* InsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF14101EDE81BF000688AA /* InsetLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +44,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B83C5A3B52A1CB42BBCE5A9 /* Pods-XoomAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XoomAssignmentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XoomAssignmentTests/Pods-XoomAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C5E5E3EDDAEA015A13D1881 /* Pods_XoomAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XoomAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C04F70C1CE2E9FEC404572 /* Pods-XoomAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XoomAssignmentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XoomAssignmentTests/Pods-XoomAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		7AA4FE6F1ED961D40011717D /* XoomAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XoomAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA4FE721ED961D40011717D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7AA4FE741ED961D40011717D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7AA4FE771ED961D40011717D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AA4FE791ED961D40011717D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AA4FE7C1ED961D40011717D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AA4FE7E1ED961D40011717D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AA4FE831ED961D40011717D /* XoomAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XoomAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AA4FE871ED961D40011717D /* XoomAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XoomAssignmentTests.swift; sourceTree = "<group>"; };
 		7AA4FE891ED961D40011717D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA4FE951ED9656B0011717D /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		7AA4FE971EDA28970011717D /* ErrorHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
+		7AA4FE991EDA290A0011717D /* XoomApiClientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XoomApiClientProtocol.swift; sourceTree = "<group>"; };
+		7AA4FE9C1EDA29D80011717D /* UrlEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlEndpoints.swift; sourceTree = "<group>"; };
+		7AA4FE9E1EDA2A630011717D /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7AA4FEA11EDA3A470011717D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7AA4FEA71EDA99920011717D /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		7AA4FEA91EDA9D250011717D /* UserDefaultsManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManagement.swift; sourceTree = "<group>"; };
+		7AA4FEAB1EDA9FF60011717D /* UIColor+HexColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HexColors.swift"; sourceTree = "<group>"; };
+		7AA4FEAD1EDAA01E0011717D /* Formatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		7AA4FEB21EDB893E0011717D /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		7AA4FEB41EDB89670011717D /* ColorScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
+		7AA4FEB81EDBA3F20011717D /* CurrencyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
+		7AD40F6B1EDE25F500A767F4 /* String Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String Extension.swift"; sourceTree = "<group>"; };
+		7AD40F6D1EDE2A3400A767F4 /* NetworkTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTest.swift; sourceTree = "<group>"; };
+		7AD40F731EDE2F2700A767F4 /* CurrencySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencySpec.swift; sourceTree = "<group>"; };
+		7AD40F771EDE401300A767F4 /* PersistentSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistentSpec.swift; sourceTree = "<group>"; };
+		7AFF14101EDE81BF000688AA /* InsetLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetLabel.swift; sourceTree = "<group>"; };
+		8198A229C044A72446939F32 /* Pods_XoomAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XoomAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C2F89C6F898E334DCB9DB8 /* Pods-XoomAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XoomAssignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XoomAssignment/Pods-XoomAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		C2DA7E4E59D294F5DD6E92E4 /* Pods-XoomAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XoomAssignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-XoomAssignment/Pods-XoomAssignment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BCC69024E406A2A4E69121F /* Pods_XoomAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +91,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046ECDF58F76BE5D3B7A3612 /* Pods_XoomAssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B71B2CA9E19515A8255EDA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8C2F89C6F898E334DCB9DB8 /* Pods-XoomAssignment.debug.xcconfig */,
+				C2DA7E4E59D294F5DD6E92E4 /* Pods-XoomAssignment.release.xcconfig */,
+				2B83C5A3B52A1CB42BBCE5A9 /* Pods-XoomAssignmentTests.debug.xcconfig */,
+				76C04F70C1CE2E9FEC404572 /* Pods-XoomAssignmentTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7AA1EE2A1EDC886F0008E32B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4FEA11EDA3A470011717D /* MainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7AA1EE2B1EDC88760008E32B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4FEB81EDBA3F20011717D /* CurrencyViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
 		7AA4FE661ED961D40011717D = {
 			isa = PBXGroup;
 			children = (
 				7AA4FE711ED961D40011717D /* XoomAssignment */,
 				7AA4FE861ED961D40011717D /* XoomAssignmentTests */,
 				7AA4FE701ED961D40011717D /* Products */,
+				5B71B2CA9E19515A8255EDA0 /* Pods */,
+				9394B4E883CAD4B351D24A1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +148,15 @@
 		7AA4FE711ED961D40011717D /* XoomAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				7AA4FE721ED961D40011717D /* AppDelegate.swift */,
-				7AA4FE741ED961D40011717D /* ViewController.swift */,
-				7AA4FE761ED961D40011717D /* Main.storyboard */,
-				7AA4FE791ED961D40011717D /* Assets.xcassets */,
-				7AA4FE7B1ED961D40011717D /* LaunchScreen.storyboard */,
-				7AA4FE7E1ED961D40011717D /* Info.plist */,
+				7AFF140D1EDE765E000688AA /* Application */,
+				7AA1EE2A1EDC886F0008E32B /* Controller */,
+				7AA1EE2B1EDC88760008E32B /* ViewModels */,
+				7AE959BA1EDC048100645EA7 /* Models */,
+				7AE959B91EDC047500645EA7 /* UserDefaults */,
+				7AA4FEB11EDB890A0011717D /* System & Extensions */,
+				7AA4FEA01EDA2B8A0011717D /* Network */,
+				7AA4FE9B1EDA29B50011717D /* Protocol & ErrorHandling */,
+				7AA4FE921ED961DF0011717D /* SupportingFiles */,
 			);
 			path = XoomAssignment;
 			sourceTree = "<group>";
@@ -90,10 +164,88 @@
 		7AA4FE861ED961D40011717D /* XoomAssignmentTests */ = {
 			isa = PBXGroup;
 			children = (
-				7AA4FE871ED961D40011717D /* XoomAssignmentTests.swift */,
+				7AD40F6D1EDE2A3400A767F4 /* NetworkTest.swift */,
+				7AD40F731EDE2F2700A767F4 /* CurrencySpec.swift */,
+				7AD40F771EDE401300A767F4 /* PersistentSpec.swift */,
 				7AA4FE891ED961D40011717D /* Info.plist */,
 			);
 			path = XoomAssignmentTests;
+			sourceTree = "<group>";
+		};
+		7AA4FE921ED961DF0011717D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4FE791ED961D40011717D /* Assets.xcassets */,
+				7AA4FE7E1ED961D40011717D /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		7AA4FE9B1EDA29B50011717D /* Protocol & ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4FE991EDA290A0011717D /* XoomApiClientProtocol.swift */,
+				7AA4FE971EDA28970011717D /* ErrorHandling.swift */,
+			);
+			name = "Protocol & ErrorHandling";
+			sourceTree = "<group>";
+		};
+		7AA4FEA01EDA2B8A0011717D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4FE9E1EDA2A630011717D /* NetworkManager.swift */,
+				7AA4FE9C1EDA29D80011717D /* UrlEndpoints.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		7AA4FEB11EDB890A0011717D /* System & Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4FEAB1EDA9FF60011717D /* UIColor+HexColors.swift */,
+				7AA4FEAD1EDAA01E0011717D /* Formatters.swift */,
+				7AA4FEB21EDB893E0011717D /* Font.swift */,
+				7AA4FEB41EDB89670011717D /* ColorScheme.swift */,
+				7AD40F6B1EDE25F500A767F4 /* String Extension.swift */,
+				7AFF14101EDE81BF000688AA /* InsetLabel.swift */,
+			);
+			name = "System & Extensions";
+			sourceTree = "<group>";
+		};
+		7AE959B91EDC047500645EA7 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4FEA91EDA9D250011717D /* UserDefaultsManagement.swift */,
+			);
+			name = UserDefaults;
+			sourceTree = "<group>";
+		};
+		7AE959BA1EDC048100645EA7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4FEA71EDA99920011717D /* Currency.swift */,
+				7AA4FE951ED9656B0011717D /* Country.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7AFF140D1EDE765E000688AA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4FE721ED961D40011717D /* AppDelegate.swift */,
+				7AA4FE761ED961D40011717D /* Main.storyboard */,
+				7AA4FE7B1ED961D40011717D /* LaunchScreen.storyboard */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		9394B4E883CAD4B351D24A1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8198A229C044A72446939F32 /* Pods_XoomAssignment.framework */,
+				3C5E5E3EDDAEA015A13D1881 /* Pods_XoomAssignmentTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AA4FE8C1ED961D40011717D /* Build configuration list for PBXNativeTarget "XoomAssignment" */;
 			buildPhases = (
+				9691016DB0AA614AF4EEA71D /* [CP] Check Pods Manifest.lock */,
 				7AA4FE6B1ED961D40011717D /* Sources */,
 				7AA4FE6C1ED961D40011717D /* Frameworks */,
 				7AA4FE6D1ED961D40011717D /* Resources */,
+				BD9557BED399CFC55F49732B /* [CP] Embed Pods Frameworks */,
+				9C0E6F0BC33F8EBEC66FE660 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +275,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AA4FE8F1ED961D40011717D /* Build configuration list for PBXNativeTarget "XoomAssignmentTests" */;
 			buildPhases = (
+				1D64800DA5C33848474A2326 /* [CP] Check Pods Manifest.lock */,
 				7AA4FE7F1ED961D40011717D /* Sources */,
 				7AA4FE801ED961D40011717D /* Frameworks */,
 				7AA4FE811ED961D40011717D /* Resources */,
+				4E5DF893BAC80914ED4A8377 /* [CP] Embed Pods Frameworks */,
+				EDC0F7E8005657854905FF07 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,12 +354,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D64800DA5C33848474A2326 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E5DF893BAC80914ED4A8377 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XoomAssignmentTests/Pods-XoomAssignmentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9691016DB0AA614AF4EEA71D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C0E6F0BC33F8EBEC66FE660 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XoomAssignment/Pods-XoomAssignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD9557BED399CFC55F49732B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XoomAssignment/Pods-XoomAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC0F7E8005657854905FF07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XoomAssignmentTests/Pods-XoomAssignmentTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7AA4FE6B1ED961D40011717D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AA4FE751ED961D40011717D /* ViewController.swift in Sources */,
+				7AA4FE961ED9656B0011717D /* Country.swift in Sources */,
+				7AA4FEB91EDBA3F20011717D /* CurrencyViewModel.swift in Sources */,
+				7AD40F6C1EDE25F500A767F4 /* String Extension.swift in Sources */,
+				7AA4FEB51EDB89670011717D /* ColorScheme.swift in Sources */,
+				7AA4FEAE1EDAA01E0011717D /* Formatters.swift in Sources */,
+				7AA4FEB31EDB893E0011717D /* Font.swift in Sources */,
+				7AA4FE981EDA28970011717D /* ErrorHandling.swift in Sources */,
+				7AA4FE9F1EDA2A630011717D /* NetworkManager.swift in Sources */,
+				7AA4FE9D1EDA29D80011717D /* UrlEndpoints.swift in Sources */,
+				7AA4FEAA1EDA9D250011717D /* UserDefaultsManagement.swift in Sources */,
+				7AA4FEA21EDA3A470011717D /* MainViewController.swift in Sources */,
+				7AA4FEA81EDA99920011717D /* Currency.swift in Sources */,
+				7AA4FEAC1EDA9FF60011717D /* UIColor+HexColors.swift in Sources */,
+				7AA4FE9A1EDA290A0011717D /* XoomApiClientProtocol.swift in Sources */,
+				7AFF14111EDE81BF000688AA /* InsetLabel.swift in Sources */,
 				7AA4FE731ED961D40011717D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +475,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AA4FE881ED961D40011717D /* XoomAssignmentTests.swift in Sources */,
+				7AD40F6E1EDE2A3400A767F4 /* NetworkTest.swift in Sources */,
+				7AD40F781EDE401300A767F4 /* PersistentSpec.swift in Sources */,
+				7AD40F741EDE2F2700A767F4 /* CurrencySpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,10 +606,12 @@
 		};
 		7AA4FE8D1ED961D40011717D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8C2F89C6F898E334DCB9DB8 /* Pods-XoomAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KG5698275Z;
 				INFOPLIST_FILE = XoomAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisjkong.XoomAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,10 +621,12 @@
 		};
 		7AA4FE8E1ED961D40011717D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2DA7E4E59D294F5DD6E92E4 /* Pods-XoomAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KG5698275Z;
 				INFOPLIST_FILE = XoomAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisjkong.XoomAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -365,6 +636,7 @@
 		};
 		7AA4FE901ED961D40011717D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B83C5A3B52A1CB42BBCE5A9 /* Pods-XoomAssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -380,6 +652,7 @@
 		};
 		7AA4FE911ED961D40011717D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C04F70C1CE2E9FEC404572 /* Pods-XoomAssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +685,7 @@
 				7AA4FE8E1ED961D40011717D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AA4FE8F1ED961D40011717D /* Build configuration list for PBXNativeTarget "XoomAssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +694,7 @@
 				7AA4FE911ED961D40011717D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
